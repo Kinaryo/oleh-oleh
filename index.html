@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLEH-OLEH</title>
+
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/home.css">
+</head>
+<body>
+
+    <!-- section header start  -->
+<header>
+    <div>
+        <a href="#" class="logo"><i class="fas fa-store"></i> <span>Toko oleh-oleh</span> </a>
+     </div>
+     <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+     </nav>
+     <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-heart" id="heart"></i>
+        <i class="fas fa-shopping-cart" id="shopping-cart"></i>
+     </div>
+</header>
+     <!-- section header end  -->
+
+<form action="" class="search-form" id="search-form">
+    <input type="search" placeholder="Cari Disini...." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i id="close" class="fas fa-times"></i>
+</form>
+
+<!-- Swiper Section Start -->
+<section class="home swiper mySwiper" id="home">
+    <div class="container swiper-wrapper" id="container">
+        <!-- Slide 1 -->
+        <div class="slide swiper-slide">
+            <div class="content">
+                <span>Produk Terpopuler</span>
+                <h3>KOTEKA</h3>
+                <p>Koteka adalah pakaian adat tradisional yang digunakan oleh pria asli Papua untuk menutupi kemaluan mereka. Koteka merupakan salah satu warisan budaya takbenda yang diwariskan secara turun temurun.</p>
+                <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+            <div class="image">
+                <div class="image-container">
+                    <img src="./assets/image/koteka.png" alt="Produk Koteka">
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide swiper-slide">
+            <div class="content">
+                <span>Produk Terpopuler</span>
+                <h3>Tifa</h3>
+                <p>Tifa Papua adalah alat musik tradisional khas Papua yang berbentuk seperti kendang dan dimainkan dengan cara dipukul</p>
+                <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+            <div class="image">
+                <div class="image-container">
+                    <img src="./assets/image/tifa.png" alt="Produk Tifa">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pagination for Swiper -->
+    <div class="swiper-pagination"></div>
+</section>
+<!-- Swiper Section End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
