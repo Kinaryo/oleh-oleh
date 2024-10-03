@@ -98,12 +98,15 @@ section:nth-child(even){
     .home .container .slide .content {
         padding-top: 30px;
         padding-left: .1rem;
-        height: 40%;
+        min-height: 40rem;
+        max-height: 40rem;
+        margin-bottom: 30px;
     }
     .home .container .slide .image {
         display: flex; 
         justify-content: center; 
         align-items: center;
+
     }
     .home .container .slide .image .image-container {
         width: 300px;
